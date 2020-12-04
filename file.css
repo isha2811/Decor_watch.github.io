@@ -1,0 +1,290 @@
+* {
+
+    padding:0;
+    margin:0;
+   
+    font-family: 'Roboto', sans-serif;
+
+}
+ body{
+    margin:0;
+    padding:0;
+}
+#main{
+    width :100%;
+    height:100vh;
+    background-image: url(watch.jpg);
+    background-size: 700px;
+    border-bottom-left-radius: 200% 200%;
+    border-bottom-right-radius: 200% 200%;
+    position: relative;
+}
+.top-header{
+    background-color:transparent;
+    color:white;
+    padding : 10px 0;
+    
+
+}
+.container1{
+    width:100%;
+    margin:0 auto;
+   
+}
+
+.container1:after{
+    content: "";
+    display: inline-block;
+    clear:both;
+
+}
+.store-contact {
+    float : right;
+}
+.store-contact ul li{
+    display:inline-block;
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    
+}.store-contact ul li:hover{
+    text-decoration: underline;
+     font-weight:bold;
+ }
+
+.middle-header{
+    background:transparent;
+    padding:25px 0;
+}
+.site-name{
+    float:left;
+
+}
+.site-name a{
+    text-decoration: none;
+    color:whitesmoke;
+    border: 3px solid white;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+.site-nav{
+    float:right;
+}
+.site-nav ul{
+   
+    
+    display: flex;
+}
+.site-nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin-right: 10px;
+    
+
+} 
+
+.site-nav ul li:hover{
+   text-decoration: underline;
+    font-weight:bold;
+}
+
+.site-nav ul li a{
+    text-decoration: none;
+    padding :10px 10px;
+    color:whitesmoke;
+   display:block;
+    font-size :1.3em;
+    font-family: 'Prata', serif;
+}
+.name{
+    color:white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
+}
+.name h1{
+    font-size: 50px;
+}
+.name p{
+    font-size:30px;
+}
+.ok{
+   width:350px;
+   height:350px;
+   border-radius: 70%;
+   float:right;
+   margin-right: 100px;
+}
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.track{
+
+    text-align: left;
+    margin-left: 150px;
+    font-family: 'Poppins', sans-serif;
+    margin-top:80px; 
+    border-right: 2px solid black; 
+    margin-right:50%;
+}
+
+.track h1{
+    color: rgba(114, 114, 79, 0.651);
+    font-weight: bold;
+    font-size:60px;
+    
+    
+}
+.track p{
+    font-weight:bold;
+    font-size:30px;
+}
+.track button{
+    padding: 10px;
+    border: 2px solid black;
+    color:black;
+    font-size:30px;
+  
+    background: white;
+}
+.verticalLine{
+    border-left: 2px solid black;
+  height: 500px;
+  margin-left: 50%;
+  
+ 
+  
+}
+.third h3{
+    text-align: center;
+    font-size:40px;
+    margin-top:30px;
+}
+.row{
+   
+   float: center;
+
+
+}
+
+.column {
+    
+    width: 20%;
+    margin-bottom: 16px;
+    display:inline-block;
+    border-radius: 25px;
+    background-color: gray;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    }
+  
+ .pro{
+     border-radius: 50%;
+     width:70px;
+     height:70px;
+     display:inline-block
+ }
+ 
+ .container h2{
+    padding-left:80px;
+    padding-top:-20px;
+}
+.container p{
+    padding-left:80px;
+    padding-top:-20px;
+}
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+
+#bottom{
+   width:100%;
+   height:100vh;
+   background-image: url(done.jpg);
+   background-size: 1200px 700px;
+   display:inline-block;
+   position: relative;
+}
+.bot{ 
+    position: absolute;
+    color:white;
+    border-left: 4px solid white;
+    text-align:left;
+    margin-left: 55%;   
+    padding-top: 20px; 
+    
+  }
+.bom  h2{
+    font-size:50px;
+    color:white;
+    padding-top: 20px;
+    padding-left: 30px;
+   
+
+}
+.bom p{
+    font-size:20px;
+    color:white;
+    padding-top: 20px;
+    padding-left: 25px;
+
+}
+.bom button{
+    padding: 10px;
+    border: 2px solid white;
+    color:white;
+    font-size:30px;
+    background: transparent;
+    margin-left: 30px;
+}
+
+.site-down{
+    float:left;
+    bottom:0px;
+}
+.site-down a{
+    text-decoration: none;
+    color:whitesmoke;
+    border: 3px solid white;
+    padding: 10px;
+    left: 20%;
+    position: absolute;
+    bottom: 40px;
+}
+.cent{
+    float:center;
+}
+.cent h3{
+    float:center;
+    bottom:15px;
+    color:white;
+}
+.cent ul  {
+    float:center;
+    color:white;
+    font-size:17px;
+    bottom:10px;
+    position:absolute;
+    right:34%;
+}
+.left{
+    color:white;
+    bottom:10px;
+    right:50px; 
+    position : absolute;
+    font-size:20px;
+}
